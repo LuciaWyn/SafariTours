@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari Tours</title>
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <header>
+        <div class="top-header">
+            <a href="#nav" class="navbar">
+                <div class="menu-item"></div>
+                <div class="menu-item"></div>
+                <div class="menu-item"></div>
+            </a>
+            <h1>Safari Tours</h1>
+        </div>
+        <nav id="nav">
+            <a class="close" href="#"><u >close</u></a>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="book.html">Book</a></li>
+                <li><a href="reviews.html">Review</a></li>
+            </ul>
+            <form action="search" method="get">
+                <input type="text" name="search" placeholder="search">
+            </form>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="tours">
+            <img src="images/offroad-g9900ef738_1920.jpg" alt="tour vehicle"/>
+            <div class="tours-bottom">
+                <p>Book Your Trip Today!</p>
+            </div>
+        </div>
+        <div class="orange">
+            <h3>More Information</h3>
+            <div class="info">
+                <img src="images/Elephant.png" alt="Tanzanian tours">
+                <button>Tanzania</button>
+            </div>
+            <div class="info">
+                <img src="images/Tiger.png" alt="Indian tours">
+                <button>India</button>
+            </div>
+            <div class="info">
+                <img src="images/Leopard.png" alt="Algerian tours">
+                <button>Algeria</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="half">
+                <img src="images/gazelle-g87e0cf2e8_1920.jpg" alt="Gazelles">
+            </div>
+            <div class="thirty">
+                <img src="images/zebra-g209737232_1920.jpg" alt="Zebra and Giraffee">
+            </div>
+            <div class="quarter">
+                <img src="images/antelope-g5f7ef7a4b_1920.jpg" alt="Antelope">
+            </div>
+            <h3>Your Photos</h3>
+            <div class="big">
+                <img src="images/lions-ge7db758bf_1920.jpg" alt="Lions">
+            </div>
+        </div>
+        <div class="gallery-options">
+            <button class="left-arrow"></button>
+            <div class="center-point"></div>
+            <button class="right-arrow"></button>
+        </div>
+        <div class="yellow-or-black">
+            <form action="" method="post">
+                <h3>Get a Quote</h3>
+                <div>
+                    <label for="country">Your Country:</label>
+                    <select name="country" required>
+                        <option selected></option>
+                        <option value="Australia">Australia</option>
+                        <option value="Canada">Canada</option>
+                        <option value="US">United States</option>
+                        <option value="UK">United Kingdom</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="destination">Your Destination:</label>
+                    <select name="destination" required>
+                        <option selected></option>
+                        <option value="Algeria">Algeria</option>
+                        <option value="India">India</option>
+                        <option value="Tanzania">Tanzania</option>
+                        <option value="Bostwana">Bostwana</option>
+                    </select>
+                </div>
+                <div class="includes">
+                    <h4 for="includes">Includes:</h4>
+                    <div class="check">
+                        <input type="checkbox" name="pool" value="pool"> 
+                        <label for="pool">Pool</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" name="self-catering" value="self-catering">
+                        <label for="self-catering">Self-Catering</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" name="catering">
+                        <label for="catering">Catering</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" name="halal">
+                        <label for="halal">Halal</label>
+                    </div>
+                    
+                </div>
+                <input type="submit" value="submit" />
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h3>Safari Tours</h3>
+        <p><a href="about.html">About</a></p>
+        <p><a href="cookies.html">Cookies</a></p>
+        <p><a href="tsAndCs.html">Terms and Conditions</a></p>
+        <p><a href="privacy.html">Privacy Policy</a></p>
+        <p>&copy; Safari Tours</p>
+    </footer>
+</body>
+</html>
